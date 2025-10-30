@@ -4,7 +4,7 @@ def getAlibiModifiedEmeddings(slope,scores,distance,sequnece):
     head_outs = []
     num_heads = len(slope)
     for h in range(num_heads):
-        #get slopes for each
+        #get slopes for each a
         alibi_bias = slope[h] * distance
 
         biased_scores = scores + alibi_bias
